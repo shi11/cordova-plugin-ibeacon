@@ -299,6 +299,7 @@ public class LocationManager extends CordovaPlugin implements BeaconConsumer {
                 return;
             }
 
+               /*
             final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
             builder.setTitle("This app needs location access");
             builder.setMessage("Please grant location access so this app can detect beacons.");
@@ -324,7 +325,7 @@ public class LocationManager extends CordovaPlugin implements BeaconConsumer {
             });
 
             builder.show();
-
+       */
         } catch (final IllegalAccessException e) {
             Log.w(TAG, "IllegalAccessException while checking for ACCESS_COARSE_LOCATION:", e);
         } catch (final InvocationTargetException e) {
